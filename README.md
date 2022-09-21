@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/python-3.6+-blue.svg)
 
-[[Paper]](https://www.aclweb.org/anthology/2021.naacl-main.417/)
+[[Paper]]
 
 **FV2ES: A Fully End2End Multimodal System for Fast Yet Effective Video Emotion Recognition**, by **Qinglan Wei**, Xuling Huang, Yuan Zhang.
 
