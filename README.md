@@ -63,6 +63,9 @@ To run our code directly, you can download the processed data from [here](https:
 python main.py -lr=4.5e-6 -ep=30 -mod=tav -bs=2 --img-interval=500 --early-stop=6 --loss=bce --cuda=0 --model=mme2e --num-emotions=6 --trans-dim=64 --trans-nlayers=4 --trans-nheads=4 --text-lr-factor=10 --text-model-size=base --text-max-len=100 
 ```
 
+### start FV2ES
+You can start the system by running FV2ES/System/app.py
+
 ## CLI
 
 ```
