@@ -1,0 +1,69 @@
+{% extends "base.html" %} {% block content %}
+
+<h2 style="color:white;" xmlns="http://www.w3.org/1999/html">Upload Your Video, Audio, Text and Label here</h2>
+<body style="color:white;font-size:4px">Tip: You need to submit video (mp4 and avi), audio (wav), text (txt) and divided files (txt)</body>
+
+<div>
+    <form  id="upload-file" method="post" enctype="multipart/form-data"><!--upload video-->
+<!--        action="http://localhost:5000/uploader"-->
+        <label for="imageUpload" class="upload-label"><!--upload trigger-->
+            CHOOSE
+        </label>
+        <input type="file" name="file" id="imageUpload" multiple="multiple">
+
+        <label for="submit-button" class="upload-label">
+            SUBMIT
+        </label>
+        <input type="submit" value="提交" id="submit-button">
+
+    </form>
+    <div class="no-style"></div>
+    <div class="image-section" style="display:incline;"><!--preview video-->
+
+        <div class="img-preview">
+            <video  style="width:100%;height:100%;object-fit:fill" src="" id="videoPreview" controls="controls"></video>
+        </div>
+        <div style="clear:both;"></div>
+        <div>
+            <button type="button" class="btn btn-primary btn-lg " id="btn-predict">PREIDICT</button>
+        </div>
+    </div>
+
+    <div class="emotionbar" style="display:none;">
+
+        <div id='angry' style="display:inline;color:#FFA500">angry:</div>
+        <div class="barcontainer">
+            <div id="angrybar" style="width:0%;"></div>
+        </div>
+        </br>
+        <div id='excited' style="display:inline;color:#40E0D0">excited:</div>
+        <div class="barcontainer">
+            <div id="excitedbar" style="width:0%;"></div>
+        </div>
+        </br>
+        <div id='frustrated' style="display:inline;color:#98FB98">frustrated:</div>
+        <div class="barcontainer">
+            <div id="frustratedbar" style="width:0%;"></div>
+        </div>
+        </br>
+        <div id='happy' style="display:inline;color:#FF69B4">happy:</div>
+        <div class="barcontainer">
+            <div id="happybar" style="width:0%;"></div>
+        </div>
+        </br>
+        <div id='neural' style="display:inline;color:#808000">neural:</div>
+        <div class="barcontainer">
+            <div id="neuralbar" style="width:0%;"></div>
+        </div>
+        </br>
+        <div id='sad' style="display:inline;color:#FFCC33">sad:</div>
+        <div class="barcontainer">
+            <div id="sadbar" style="width:0%;"></div>
+        </div>
+    </div>
+
+
+
+</div>
+
+{% endblock %}
