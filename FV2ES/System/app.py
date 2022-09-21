@@ -37,7 +37,7 @@ def upload_function():
 @app.route('/predict', methods=['POST'])
 def pridict_function():
     # call the prediction module and return the prediction result
-    cmd = ['python', '../V2ES_prediction/main.py', '--test']
+    cmd = ['python', '../V2EM_prediction/main.py', '--test']
     cmd_result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, encoding='utf8')
     if cmd_result.returncode == 0:
         print('success')
