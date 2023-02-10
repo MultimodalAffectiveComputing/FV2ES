@@ -149,4 +149,4 @@ optional arguments:
   --gru                 Use GRU rather than LSTM
 ```
 ### Pretrained models
-please download from https://pan.baidu.com/s/1u7mp8y7_eRExb4Efk20NSw?pwd=2930  code:2930
+please download from https://pan.baidu.com/s/1lpjAMjLrPy-HNHAZIrCR1g?pwd=2930   code:2930
