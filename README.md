@@ -34,7 +34,7 @@ The raw data can be downloaded from [CMU-MOSEI](http://immortal.multicomp.cs.cmu
 
 ### Dataset
 
-To run our code directly, you can download the processed data from [here](https://hkustconnect-my.sharepoint.com/:u:/g/personal/wdaiai_connect_ust_hk/EbEzVnCduqVNuT_LvuRApVQBagraPx7nGqIEHgdnGPjN7g?e=zeMtct) (88.6G). Unzip it and the tree structure of the data direcotry looks like this:
+To run our code directly (V2EM), you can download the processed data from [here](https://hkustconnect-my.sharepoint.com/:u:/g/personal/wdaiai_connect_ust_hk/EbEzVnCduqVNuT_LvuRApVQBagraPx7nGqIEHgdnGPjN7g?e=zeMtct) (88.6G). Unzip it and the tree structure of the data direcotry looks like this:
 
 ```
 ./data
@@ -45,6 +45,8 @@ To run our code directly, you can download the processed data from [here](https:
 - MOSEI_HCF_FEATURES
 - MOSEI_SPLIT
 ```
+
+If you are going to use the system, the input should be videos from the IEMOCAP and CMU-MOSEI datasets.
 
 ### Environment
 
